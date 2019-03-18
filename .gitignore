@@ -1,0 +1,54 @@
+# Ignore all files / folders by default and allow selected folders only
+!/bin/
+!composer.json
+!/public_html/
+!/db/
+!/Backup/
+!/logs/
+!.gitignore
+!.deployignore
+logs/
+*[1-9]/
+
+# Ignore By File Type
+*.bak
+*.bz2
+*.gz
+*.mp3
+*.psd
+*.rar
+*.tar
+*.tbz
+*.tgz
+*.tmp
+*.tmproj
+*.zip
+*.swp
+*.swo
+
+# Ignore common backup / temporary files and directories
+[0-9]*.htaccess
+*-ck.js
+*-old.php
+*-[Oo][KkTt][Dd].*
+*-[Oo][KkTt][Dd]/
+test*.*
+*/test/*
+error_log
+
+._*
+Copy of *
+Copy (2) of *
+* - Copy*
+* copy.php
+.DS_Store
+Thumbs.db
+Sublime.sublime-project
+Sublime.sublime-workspace
+codekit-config.json
+/public_html/nbproject/private/
+
+bower_components
+node_modules
+tmp
+sendgrid.env
