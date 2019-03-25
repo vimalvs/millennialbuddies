@@ -23,9 +23,7 @@ if ($tld === 'loc' || $tld == '') {
     define('ENV_DEVELOPMENT', false);
 }
 
-define('DB_NAME', 'u986057327_mb');
-define('DB_USER', 'u986057327_mille');
-define('DB_PASS', 'vimal9946463913');
+
 define('ROOT', str_replace('\\', '/', realpath(__DIR__ . '/..')));
 define('HOME', str_replace('\\', '/', realpath(__DIR__ . '/../..')));
 define('DATE_TIME', date("U"));

@@ -3,8 +3,6 @@ session_start();
 include 'site_config.php';
 include ROOT.'/vendor/autoload.php';
 
-include ROOT.'/lib/SiteManager.php';
-include ROOT.'/lib/DbManager.php';
 use Symfony\Component\Dotenv\Dotenv;
 
 
@@ -135,8 +133,10 @@ $dotenv = new Dotenv();
 }
 $dotenv->load(ROOT.'/.env');
 define("SENDGRID_KEY", getenv("SENDGRID_API_KEY"));
+define('DB_NAME', getenv("DB_NAME"));
+define('DB_USER', getenv("DB_USER"));
+define('DB_PASS', getenv("DB_PASS"));
 
-
-
-
+include ROOT.'/lib/SiteManager.php';
+include ROOT.'/lib/DbManager.php';
 ?>
