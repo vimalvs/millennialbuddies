@@ -81,7 +81,6 @@
 <form class="form-signin text-center" action="auth.php" method="post">
 	<a href="/"><img src="/img/logo.jpg" alt="logo" width="150" height="100"></a>
 	<h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-	<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
 	<label for="inputEmail" class="sr-only">Email address</label>
 	<input type="email" name="auth_email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
 	<label for="inputPassword" class="sr-only">Password</label>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'config.php';
+include 'site_config.php';
 include ROOT.'/vendor/autoload.php';
 
 include ROOT.'/lib/SiteManager.php';
