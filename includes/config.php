@@ -7,7 +7,7 @@ if (is_numeric(substr($tmp, -1, 1))) {
 }
 $http_protocol = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? 'https://' : 'http://';
 
-define('SITE_HOME', $http_protocol."www.padiyaravallikattu-kudumbayogam.$tld");
+define('SITE_HOME', $http_protocol."www.millennialbuddies.$tld");
 
 const DB_TYPE = 'mysql';
 const DB_PORT = 3306; // Port is ignored by PDO, if host is localhost. Use 127.0.0.1 to use a non default port
@@ -23,8 +23,8 @@ if ($tld === 'loc' || $tld == '') {
     define('ENV_DEVELOPMENT', false);
 }
 
-define('DB_NAME', 'u552501200_mb');
-define('DB_USER', 'u552501200_mille');
+define('DB_NAME', 'u986057327_mb');
+define('DB_USER', 'u986057327_mille');
 define('DB_PASS', 'vimal9946463913');
 define('ROOT', str_replace('\\', '/', realpath(__DIR__ . '/..')));
 define('HOME', str_replace('\\', '/', realpath(__DIR__ . '/../..')));
