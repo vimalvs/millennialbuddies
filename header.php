@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Millenial Buddies</title>
+  <title>Millennial Buddies</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -41,7 +41,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="/" class="scrollto"><span><strong>M</strong></span>illenialbuddies</a></h1>
+        <h1><a href="/" class="scrollto"><span><strong>M</strong></span>illennialbuddies</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
@@ -49,7 +49,7 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#about-us">About</a></li>
+          <li><a href="#about-us">About Millennial Buddies</a></li>
           <li><a href="#vision">Vision</a></li>
           <li><a href="#product">Product</a></li>
           <li><a href="#contact">Contact</a></li>

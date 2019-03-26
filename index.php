@@ -122,7 +122,7 @@ include 'header.php'
           <div class="info">
             <div class="email">
               <i class="fa fa-envelope"></i>
-              <p>feedback@millenialbuddies.com</p>
+              <p>feedback@millennialbuddies.com</p>
             </div>
 
             <div>

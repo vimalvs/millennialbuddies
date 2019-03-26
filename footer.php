@@ -8,7 +8,7 @@
         <div class="col-md-12 col-lg-4">
           <div class="footer-logo">
 
-            <a class="navbar-brand" href="#">Millenialbuddies</a>
+            <a class="navbar-brand" href="#">Millennialbuddies</a>
             <p>
               The company strives to create a platform for a competency based learning experience in a fun and interactive way that is vital in this era of digitalisation and thereby provide a value based education system to enhance the skills in young children.
             </p>
@@ -19,12 +19,9 @@
         <div class="col-sm-6 col-md-3 col-lg-2">
           <div class="list-menu">
 
-            <h4>Abou Us</h4>
-
             <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
+              <li><a href="#">About Millennial Buddies</a></li>
+              <li><a href="#">Testimonials</a></li>
               <li><a href="#">Privacy Policy</a></li>
             </ul>
 
